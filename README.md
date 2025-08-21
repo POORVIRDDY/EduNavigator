@@ -1,6 +1,6 @@
 # Admission Enquiry Chatbot
 
-A mini project that leverages Natural Language Processing (NLP) to automate and streamline the process of responding to admission-related queries in educational institutions.
+A project that leverages Natural Language Processing (NLP) to automate and streamline the process of responding to admission-related queries in educational institutions.
 
 ---
 
