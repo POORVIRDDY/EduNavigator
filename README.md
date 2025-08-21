@@ -1,90 +1,78 @@
-# EduNavigator
+# Admission Enquiry Chatbot
 
-A comprehensive, step-by-step guide for students applying to engineering colleges in Telangana, India, with a focus on the post-EAMCET (Engineering, Agriculture, and Medical Common Entrance Test) counseling and admission process.
+A mini project that leverages Natural Language Processing (NLP) to automate and streamline the process of responding to admission-related queries in educational institutions.
 
 ---
 
-## Table of Contents
+## Overview
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Content Overview](#content-overview)
-- [Contributing](#contributing)
-- [License](#license)
+The Admission Enquiry Chatbot is designed to address the growing demand for efficient, real-time information retrieval in the education sector. By interacting directly with prospective students, the chatbot enhances user experience and reduces administrative workload, ensuring fast and accurate dissemination of key admission information.
 
 ---
 
 ## Features
 
-- 📑 **Complete Admission Process**: Document checklist, counseling steps, seat allotment, upgrades, and reporting.
-- 🎓 **Scholarships & Financial Aid**: Info on merit-based, need-based, and category-specific scholarships.
-- 🏫 **College Research**: Guidance on researching college rankings, placements, infrastructure, and program strengths.
-- 🔀 **Entrance Exams**: Requirements for special programs beyond EAMCET.
-- 💰 **Tuition & Fees**: Detailed fee structure, cost of living, budgeting tips.
-- 🏡 **Hostel & Accommodation**: Campus/off-campus living, application steps, budgeting.
-- 🛣️ **Career & Placement**: Placement cells, internships, job search strategies, alumnus networking.
-- 🌏 **For International Students**: Orientation, visa, support services.
-- 🧳 **Transfers & Credit**: Guide to credit transfers, policies, and procedures.
-- 🛠️ **Student Life**: Clubs, extracurriculars, health & wellness resources.
+- **NLP-Based Interaction**: Processes natural language questions for intuitive and conversational responses.
+- **24/7 Information Access**: Provides instant answers on admission procedures, eligibility, important dates, course availability, and contact details.
+- **Accuracy & Reliability**: Ensures prospective students receive correct and timely information critical to their decision-making.
+- **Scalable & Adaptable**: Easily configurable for use by various educational institutions.
+- **Admin Workload Reduction**: Automates repetitive enquiry tasks so staff can focus on complex cases.
+
+---
+
+## Technical Highlights
+
+- Built using state-of-the-art NLP libraries and frameworks.
+- Modular design for easy integration with institutional websites or apps.
+- Clean, user-friendly interface for seamless interaction.
+
+---
+
+## Motivation
+
+Modern institutions receive a high volume of repetitive admission queries. Manual response is inefficient and prone to delays or errors. This chatbot offers:
+- Improved operational efficiency.
+- Enhanced student satisfaction through immediate and accurate guidance.
+- Reduction in staff workload for routine queries.
 
 ---
 
 ## Getting Started
 
-1. **Clone the Repository:**
+How to use or test:
+1. Clone this repository.
+2. Install required dependencies (see `requirements.txt`).
+3. Run the chatbot server:  
     ```
-    git clone https://github.com/POORVIRDDY/edunavigator.git
-    cd edunavigator
+    python chatbot_server.py
     ```
-
-2. **Browse the Guides:**
-    - Open the main documentation (`README.md` or `/docs`) in your preferred Markdown viewer or code editor.
+4. Interact via the provided web interface or API.
+5. Customize FAQ content and responses (`faq_data.json`) as per institution requirements.
 
 ---
 
-## Usage
+## Usage Examples
 
-- Designed for students, parents, school counselors, and educational advisors in Telangana.
-- Follow sections in order for a full roadmap through the engineering college application process.
-- Checklists and tips are provided to avoid missing critical dates or steps.
+- **Q:** "What are the eligibility criteria for BTech admission?"
+- **A:** "Candidates must have passed Class 12 with Physics, Chemistry, and Mathematics and have a valid EAMCET rank."
 
----
-
-## Content Overview
-
-- **Document Preparation**
-- **EAMCET Counseling Flow**
-- **Scholarships & Fee Reimbursements**
-- **Program and College Rankings**
-- **Additional Exams**
-- **Budget Planning**
-- **Hostel/Accommodation Tips**
-- **Career/Internship Guidance**
-- **Student Life & Extracurriculars**
-- **Credit Transfers**
-- **International Student Section**
-
-Each section is based on official guidelines and educational best practices, focusing on accuracy and clarity.
+- **Q:** "When does registration for counselling start?"
+- **A:** "Registration opens on May 10th. Check the official website for updates."
 
 ---
 
 ## Contributing
 
-Contributions are welcome! To contribute:
-
-1. Fork the repo.
-2. Create your feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
+1. Fork the repo and create your branch.
+2. Commit your improvements or bug fixes.
+3. Open a pull request with detailed description.
 
 ---
 
 ## License
 
-This project is provided for educational use only. Please reference and verify all details with official Telangana state education portals or the respective college admissions websites.
+For academic demonstration purposes only. Please check all information with official institutional sources before use in production.
 
 ---
 
-*EduNavigator: Demystifying the engineering college application journey in Telangana.*
+**Admission Enquiry Chatbot**: Revolutionizing the way institutions respond to student queries.
